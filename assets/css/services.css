@@ -1,0 +1,98 @@
+.page__services {
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* Css Xử lý ảnh */
+.page__services__img {
+  padding-bottom: 20px;
+}
+.page__services__img {
+  width: 320px;
+  float: left;
+  margin-left: 70px;
+}
+.services__img img {
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px #888;
+}
+.border__services img {
+  width: 100%;
+  max-width: 1030px;
+}
+.services__img {
+  margin-bottom: 20px;
+  position: relative;
+}
+.services__img-2 {
+  position: absolute;
+  right: -21px;
+  bottom: -12px;
+}
+/* Kết thúc css ảnh */
+.manage__services {
+  display: flex;
+}
+.manage__services__1 {
+  width: 600px;
+  margin-left: 40px;
+}
+.theme__services {
+  font-size: 33px;
+  font-family: "Cinzel";
+  text-align: center;
+  margin-bottom: 10px;
+  color: #bee2ce;
+}
+
+.page__group {
+  overflow: hidden;
+}
+.group {
+  font-family: Comfortaa;
+  padding-top: 5px;
+  overflow: hidden;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #999;
+  font-size: 19.5px;
+  font-weight: bold;
+  color: #fff;
+}
+.group__note {
+  color: #ccc;
+  font-size: 15.5px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+.price {
+  font-family: Roboto;
+  float: right;
+  color: #bee2ce;
+}
+.title__about {
+  font-size: 19px;
+  font-weight: bold;
+  color: #bee2ce;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+  .page__services__img {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .manage__services__1 {
+    width: 100%;
+  }
+  .manage__services {
+    flex-wrap: wrap;
+  }
+  .manage__services__1 {
+    margin-left: 0;
+  }
+  .page__services__img {
+    padding-left: 50px;
+  }
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="assets/img/icon.png" rel="shortcut icon" />
+    <title>Nail Studio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <div class="phone">
+      <div class="container">
+        <div class="row">
+          <div
+            class="ml-auto col-sm-6 col-md-5 col-lg-4 col-xl-3 d-none d-sm-block"
+          >
+            <a href="tel:02343885998" class="phone__link">
+              Call for Appointment:<br />
+              0234-388-59-98
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="sign-up.html" id="sign-up"></a>
+    <section class="main">
+      <nav class="nav navbar navbar-expand-lg navbar-light nav__nails">
+        <a class="navbar-brand nav__logo" href="">
+          <img src="assets/img/logo.png" alt="logo nail" />
+        </a>
+        <div class="nav__m d-block d-md-none">
+          <ul class="navbar__m">
+            <li class="navbar__call_m">
+              <a href="tel:02343885998" class="navbar__link_m">
+                <span>Call</span>
+              </a>
+            </li>
+            <li class="navbar__services_m">
+              <a href="services.html" class="navbar__link_m">
+                <span>Services</span>
+              </a>
+            </li>
+            <li class="navbar__map-google_m">
+              <a href="#mapgoogle" class="navbar__link_m">
+                <span>Direction</span>
+              </a>
+            </li>
+            <li class="navbar__sign-up_m">
+              <a href="sign-up.html" class="navbar__link_m">
+                <span>Sign Up</span>
+              </a>
+            </li>
+            <li class="navbar__gift_m">
+              <a href="gift.html" class="navbar__link_m">
+                <span>Egift</span>
+              </a>
+            </li>
+            <li class="navbar__promotion_m">
+              <a href="promotions.html" class="navbar__link_m">
+                <span>Promotion</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav__d navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gift.html">E-Gift</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="policy.html">Our Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promotions.html">Promotions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        id="sliders"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <!-- <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/data/banner1.jpg"
+              class="d-block w-100"
+              alt="banner 1"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              Shine from Hand to Toe.<br />
+              <span>Your nails always stick with you, pamper them!</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/data/banner2.jpg"
+              class="d-block w-100"
+              alt="banner 2"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              Sheer perfection.<br />
+              <span>Let your nails be the center of every occasion.</span>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/data/banner4.jpg"
+              class="d-block w-100"
+              alt="banner 4"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              Indulge in Serenity.<br />
+              <span>
+                Be beautiful. Feel good about it.
+              </span>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#sliders"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#sliders"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <section class="wrapper">
+        <div class="services">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h2 class="services__title">Manicure & Pedicure</h2>
+              <div class="services__img text-center">
+                <img
+                  src="assets/data/services_01.jpg"
+                  alt="Manicure & Pedicure"
+                />
+              </div>
+              <div class="services__desc">
+                At Pamper Me Nail Studio, we provide your hands and feet with
+                the nurturing, attentive care they deserve. You will leave with
+                hands and feet that are refreshed, smooth and accented with
+                lasting color.
+              </div>
+              <a href="#" class="services__more">
+                <span>Our Services</span>
+              </a>
+            </div>
+            <div class="col-md-4 text-center">
+              <h2 class="services__title">Nail Enhancements</h2>
+              <div class="services__img">
+                <img
+                  src="assets/data/services_02.jpg"
+                  alt="Nail Enhancements"
+                />
+              </div>
+              <div class="services__desc">
+                At Pamper Me Nail Studio, we provide your hands and feet with
+                the nurturing, attentive care they deserve. You will leave with
+                hands and feet that are refreshed, smooth and accented with
+                lasting color.
+              </div>
+              <a href="#" class="services__more">
+                <span>Our Services</span>
+              </a>
+            </div>
+            <div class="col-md-4 text-center">
+              <h2 class="services__title">Waxing</h2>
+              <div class="services__img">
+                <img src="assets/data/services_03.jpg" alt="Waxing" />
+              </div>
+              <div class="services__desc">
+                At Pamper Me Nail Studio, we provide your hands and feet with
+                the nurturing, attentive care they deserve. You will leave with
+                hands and feet that are refreshed, smooth and accented with
+                lasting color.
+              </div>
+              <a href="#" class="services__more">
+                <span>Our Services</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper__border text-center">
+          <img src="assets/img/bg_borderpage.png" alt="bg_borderpage" />
+        </div>
+        <div class="about">
+          <h3 class="about__title">About Us</h3>
+          <div class="row">
+            <div
+              class="mx-auto col-md-6 col-lg-4 order-lg-2 order-1 text-center"
+            >
+              <div class="about__img">
+                <img
+                  src="assets/data/about.jpg"
+                  alt="about us"
+                  class="img__1"
+                />
+                <img
+                  src="assets/data/about2.jpg"
+                  alt="pamper me nail studio"
+                  class="img__2"
+                />
+                <img
+                  src="assets/data/about3.jpg"
+                  alt="professional nails & spa"
+                  class="img__3"
+                />
+              </div>
+              <div class="about__slogan">
+                <img src="assets/img/gift.png" alt="Gift Cards are available" />
+                <br />
+                Gift Cards are available
+              </div>
+            </div>
+            <div class="col-lg-8 order-lg-1 order-2">
+              <div class="about__content">
+                Pamper Me Studio brings you a New Brand of salon, a uniquely
+                vibrant and relaxed environment with a modern luxurious feel
+                back to our industry. We have an exclusive vision to recognize
+                and re-establish what the industry has been lacking for many
+                years. Our priority is to make our clients feel pampered and
+                relaxed while getting beautified here at our salon. We will
+                maintain our progressiveness and edginess by creating the latest
+                trends and offering an unforgettable experience throughout your
+                stay with us. You belong here, you belong in luxury, you deserve
+                pampering and excellence.
+                <br /><br />
+                <!--Deeply attuned to client needs, we use our expertise skills to provide you with the highest level of service, including natural manicures and pedicures, nail enhancement, waxing and specialty treatments.
+                <br /><br />-->
+                Sanitation is our top priority. We believe in the utmost
+                importance of health and safety by using:
+                <ul>
+                  <li>
+                    Jet-less pedicure chair with single use plastic liner for
+                    each individual
+                  </li>
+                  <li>Disposable nail filers, buffers and foot file blocks</li>
+                  <li>
+                    All our metal tools are sterilized in a hospital grade auto
+                    clave
+                  </li>
+                </ul>
+                To give you peace of mind, so your visit can be truly relaxing.
+                <br />
+                We devoted to provide best services, customer relations and a
+                willingness to grow and learn.
+                <br /><br />We make it our core commitment to provide a
+                comforting yet professional ambiance, while preserving the
+                luxurious and modern salon etiquette. Our salon is proud to have
+                passionate and diverse expert technicians always ready to
+                service you. Thank you for choosing us for your beauty care!
+                <div class="about__txt text-center">
+                  "Recover. Rejuvenate. Revive."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 mb-20">
+            <h6 class="footer__title text-uppercase">Find Us On Facebook</h6>
+            <div class="footer__content">
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhuehotels&tabs=timeline&width=230px&height=250px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1407027062730059"
+                width="230px"
+                height="250px"
+                style="border:none;overflow:hidden"
+                scrolling="no"
+                frameborder="0"
+                allowTransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-20">
+            <h6 class="footer__title text-uppercase">Location</h6>
+            <div class="footer__content">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11639.303130302953!2d-89.2653101!3d43.171181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad4b56170fa7c430!2sPamper+Me+Nail+Studio!5e0!3m2!1svi!2s!4v1518143457233"
+                width="230"
+                height="250"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-20">
+            <h6 class="footer__title text-uppercase">Nail Studio Hours</h6>
+            <ul class="footer__content footer__hours list-unstyled">
+              <li>Mon-Fri: 9:30am-7:00pm</li>
+              <li>Sat: 9:30am-4:00pm</li>
+              <li>Sun: 11:00am-4:00pm</li>
+            </ul>
+            <div class="footer__hours_welcome">
+              Walk-ins Welcome
+            </div>
+            <div class="footer__title footer__hours_weaccept">
+              We Accept:
+            </div>
+            <div class="footer__hours_paypal">
+              <img src="assets/img/visa.png" alt="visa" />
+              <img src="assets/img/master.png" alt="master" />
+              <img src="assets/img/discover.png" alt="discover" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-20">
+            <h6 class="footer__title text-uppercase">Contact Us</h6>
+            <div class="footer__content">
+              338 S Grand Ave<br />Sun Prairie, WI 53590<br />(608) 318-6088
+              <div class="footer__contact_social">
+                <a
+                  href="https://www.facebook.com/"
+                  class="footer__social footer__social_facebook"
+                  target="_blank"
+                ></a>
+                <a
+                  href="https://www.yelp.com"
+                  class="footer__social footer__social_yelp"
+                  target="_blank"
+                ></a>
+                <a
+                  href="https://www.google.com/"
+                  class="footer__social footer__social_googleplus"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="footer__contact_copyright">
+                Copyright &copy; Nail Studio
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="follow__sidebar">
+      <a href="#" target="_blank">
+        <img src="assets/img/facebook_icon.png" alt="facebook" />
+      </a>
+      <a href="#" target="_blank">
+        <img src="assets/img/yelp_icon1.png" alt="yelp" />
+      </a>
+      <a href="#" target="_blank">
+        <img src="assets/img/gp_icon.png" alt="google plus" />
+      </a>
+    </div>
+    <div
+      id="top"
+      style="display: none;"
+      onclick="$('html,body').animate({scrollTop: 0}, 'slow'); return false;"
+    ></div>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/common.js"></script>
+  </body>
+</html>

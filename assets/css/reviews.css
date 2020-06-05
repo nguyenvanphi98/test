@@ -1,0 +1,30 @@
+.reviews__us {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.reviews__follow {
+  overflow: hidden;
+}
+.reviews__follow-link {
+  display: block;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  color: #fff;
+  margin-bottom: 5px;
+  float: left;
+  margin-right: 10px;
+}
+.reviews__follow-yelp {
+  background: #eeeeee url("../img/yelp.png") 14px 6px no-repeat;
+}
+.reviews__follow-pages {
+  background: #eeeeee url("../img/logo-yp.png") 16px 0px no-repeat;
+}
+.reviews__follow-face {
+  background: #eeeeee url("../img/face.png") center 3px no-repeat;
+}

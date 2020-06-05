@@ -1,0 +1,21 @@
+body{
+    display: block;
+}
+@font-face {
+    font-family: Cinzel_Regular;
+    src:url('Cinzel-Regular.otf') format('truetype');
+}
+.border_page{
+    text-align:  center;
+}
+.content{
+    min-height: 300px;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 50px;
+}
+.content h2{
+    font-family: Cinzel_Regular;
+    font-size: 35px;
+    color:#bee2ce;
+    margin-bottom: 10px;              
+}

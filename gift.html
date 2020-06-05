@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="assets/img/icon.png" rel="shortcut icon" />
+  <title>E-Gift | Nail Studio</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/gift.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="container">
+      <div class="row">
+        <div class="ml-auto col-sm-6 col-md-5 col-lg-4 col-xl-3 d-none d-sm-block">
+          <a href="tel:02343885998" class="phone__link">
+          Call for Appointment:<br />
+          0234-388-59-98
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="sign-up.html" id="sign-up"></a>
+  <section class="main">
+    <nav class="nav navbar navbar-expand-lg navbar-light nav__nails">
+      <a class="navbar-brand nav__logo" href="/nails">
+        <img src="assets/img/logo.png" alt="logo nail" />
+      </a>
+      <div class="nav__m d-block d-md-none">
+        <ul class="navbar__m">
+          <li class="navbar__call_m">
+            <a href="tel:02343885998" class="navbar__link_m">
+              <span>Call</span>
+            </a>
+          </li>
+          <li class="navbar__services_m">
+            <a href="services.html" class="navbar__link_m">
+              <span>Services</span>
+            </a>
+          </li>
+          <li class="navbar__map-google_m">
+            <a href="#mapgoogle" class="navbar__link_m">
+              <span>Direction</span>
+            </a>
+          </li>
+          <li class="navbar__sign-up_m">
+            <a href="sign-up.html" class="navbar__link_m">
+              <span>Sign Up</span>
+            </a>
+          </li>
+          <li class="navbar__gift_m">
+            <a href="gift.html" class="navbar__link_m">
+              <span>Egift</span>
+            </a>
+          </li>
+          <li class="navbar__promotion_m">
+            <a href="promotions.html" class="navbar__link_m">
+              <span>Promotion</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav__d navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="gift.html">E-Gift</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="policy.html">Our Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promotions.html">Promotions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="wrapper">
+      <div class="wrapper__border text-center">
+        <img src="assets/img/bg_borderpage.png" alt="bg_borderpage" />
+      </div>
+      <div class="egift">
+        <h1 class="title__default">E-Gift:</h1>
+        <div class="egift__desc">
+            Please choose a design and add input e-gift information:
+        </div>
+        <div class="egift__row">
+            <div class="egift__background">
+                <div class="egift__full__pamper">
+                    <div class="egift__pamper"> Pamper Me Nail Studio</div>
+                    <div class="egift__grand"> 338 S Grand Ave Sun Prairie, Wisconsin 53590</div>
+                    <div class="egift__phone"> 608-318-6088</div>
+                    <div class="egift__serial"><b>Serial Number: XXXXXX</b></div>
+                </div>
+                <div class="egift__img">
+                    <img id="egift-img-preview" class="egift__img__onclick"
+                        src="assets/data/e-gift/e_1.png" alt="egift">
+                </div>
+                <div class="egift__messagegroup">
+                    <div class="egift__messagegroup__share"><strong>From</strong>:</div>
+                    <div class="egift__messagegroup__share"><strong>To</strong>:</div>
+                    <div class="egift__messagegroup__share"><strong>Amount</strong>: $</div>
+                    <div class="egift__messagegroup__share"><strong>Message</strong>: </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="egift__all__img">
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_1.png')"
+                src="assets/data/e-gift/1.png" alt="Gift For You"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_2.png')"
+                src="assets/data/e-gift/2.jpg" alt="Valentine"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_3.png')"
+                src="assets/data/e-gift/3.jpg" alt="Thank-You2"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_4.png')"
+                src="assets/data/e-gift/4.jpg" alt="Thank-You1"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_5.png')"
+                src="assets/data/e-gift/5.jpg" alt="Thanhkiu"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_6.png')"
+                src="assets/data/e-gift/6.jpg" alt="HappyMother"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_7.png')"
+                src="assets/data/e-gift/7.jpg" alt="HappyMother"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_8.png')"
+                src="assets/data/e-gift/8.jpg" alt="HappyFather"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_9.png')"
+                src="assets/data/e-gift/9.jpg" alt="HappyFather"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_10.png')"
+                src="assets/data/e-gift/10.jpg" alt="Happy-Easter"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_11.png')"
+                src="assets/data/e-gift/11.jpg" alt="Graduation"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_12.png')"
+                src="assets/data/e-gift/12.jpg" alt="Christmasny3"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_13.png')"
+                src="assets/data/e-gift/13.jpg" alt="Christmasny2"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_14.png')"
+                src="assets/data/e-gift/14.jpg" alt="bymyvalentine"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_15.png')"
+                src="assets/data/e-gift/15.jpg" alt="Birthday2"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_16.png')"
+                src="assets/data/e-gift/16.jpg" alt="Birthday1"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_17.png')"
+                src="assets/data/e-gift/17.jpg" alt="New Egift 3"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_18.png')"
+                src="assets/data/e-gift/18.jpg" alt="Graduation"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_19.png')"
+                src="assets/data/e-gift/19.jpg" alt="Valentine Day"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_20.png')"
+                src="assets/data/e-gift/20.jpg" alt="Christmas"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_21.png')"
+                src="assets/data/e-gift/21.jpg" alt="Christmas"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_22.png')"
+                src="assets/data/e-gift/22.jpg" alt="Birthday"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_23.png')"
+                src="assets/data/e-gift/23.jpg" alt="Birthday"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_24.png')"
+                src="assets/data/e-gift/24.jpg" alt="A Gift For You"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_25.png')"
+                src="assets/data/e-gift/25.jpg" alt="New Egift 5"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_26.png')"
+                src="assets/data/e-gift/26.jpg" alt="New Egift 4"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_27.png')"
+                src="assets/data/e-gift/27.jpg" alt="A Gift For You"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_28.png')"
+                src="assets/data/e-gift/28.jpg" alt="New Egift 2"
+                name="backsmallimg">
+
+            <img class="egift__all__img__shares"
+                onclick="changeImageView('assets/data/e-gift/e_29.png')"
+                src="assets/data/e-gift/29.jpg" alt="New Egift 1"
+                name="backsmallimg">
+        </div>
+        <div class="egift__row" style="border-bottom: 1px dashed #e5e5e5;">
+        </div>
+        <h3>Information:</h3>
+        <div class="egift__row">
+            Amount ($)*:<br><input name="TextBox2" type="text" id="txtAmout" class="textbox"
+                placeholder="Enter the amount...">
+            <span class="obligatory__amount">*Please enter the amount</span>
+            <span class="obligatory__amount__erro">*Invalid amount</span>
+        </div>
+        <div class="egift__row">
+            Your name (First &amp; Last Name)*:<br><input name="TextBox3" type="text" id="txtName"
+                placeholder="Enter your full name..." class="textbox">
+            <span class="obligatory__name">*Please enter your name.</span>
+        </div>
+        <div class="egift__row">
+            Your Email*:<br><input name="TextBox4" type="text" id="txtEmail" class="textbox"
+                placeholder="Enter your email...">
+            <span class="obligatory__email">*Please enter your email adress.</span>
+            <span class="obligatory__email__erro">*Invalid email</span>
+        </div>
+        <div class="egift__row">
+            Recipient (First &amp; Last Name):<br>
+            <input name="TextBox1" type="text" id="txtNameRecipient" class="textbox"
+                placeholder="Enter the recipient's full name...">
+            <span class="obligatory__name__your">*Please enter your name.</span>
+        </div>
+        <div class="egift__row">
+            Recipient's Email*:<br><input name="TextBox6" type="text" id="txtEmailRecipint" class="textbox"
+                placeholder="Enter recipient email...">
+            <span class="obligatory__email__your">*Please enter recipient's email adress.</span>
+            <span class="obligatory__email__erro1">*Invalid Email.</span>
+
+        </div>
+        <div class="egift__row">
+            Recipient's Phone Number*:<br>
+            <input name="TextBox8" type="text" id="txtPhoneRecipient" class="textbox"
+                placeholder="Enter recipient's phone number...">
+            <span class="obligatory__phone__your">*Please enter recipient's phone number.</span>
+            <span class="obligatory__phone__erro2">*Invalid Phone.</span><br>
+            <span class="obligatory__phone">Egift will be sent to this number if you input this field.</span>
+        </div>
+        <div class="egift__row">
+            Message (160 characters):<br>
+            <textarea name="TextArea1" id="TextArea1" class="textbox" onkeyup="countChars('TextArea1',160);"
+                onblur="countChars('TextArea1',160);"
+                placeholder="Enter the message you want to send... "></textarea>
+        </div>
+        <div class="egift__row" style="height: 250px;">
+            Deliver this gift on:<br>
+            <div id="UpdatePanel1">
+                <form action="">
+                    <input type="date" name="bday" class="textbox">
+                </form>
+            </div>
+            <div class="egift__btn">
+                <input type="button" class="search__button" value="Preview"><br><br>
+                *3% Processing Fee Will Be Charged<br><br>
+                <input type="image" name="ImageButton2" id="ImageButton2"
+                    src="assets/img/paypal-checkout.png">
+
+                <div class="egift__note">
+                    <input name="TextBox7" type="text" id="TextBox7">
+                </div>
+            </div>
+            <div class="egift__row__bottom">
+            </div>
+            <div id="previewdiv"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 mb-20">
+          <h6 class="footer__title text-uppercase">Find Us On Facebook</h6>
+          <div class="footer__content">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhuehotels&tabs=timeline&width=230px&height=250px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1407027062730059"
+              width="230px"
+              height="250px"
+              style="border:none;overflow:hidden"
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-20">
+          <h6 class="footer__title text-uppercase">Location</h6>
+          <div class="footer__content">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11639.303130302953!2d-89.2653101!3d43.171181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad4b56170fa7c430!2sPamper+Me+Nail+Studio!5e0!3m2!1svi!2s!4v1518143457233"
+              width="230"
+              height="250"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-20">
+          <h6 class="footer__title text-uppercase">Nail Studio Hours</h6>
+          <ul class="footer__content footer__hours list-unstyled">
+            <li>Mon-Fri: 9:30am-7:00pm</li>
+            <li>Sat: 9:30am-4:00pm</li>
+            <li>Sun: 11:00am-4:00pm</li>
+          </ul>
+          <div class="footer__hours_welcome">
+            Walk-ins Welcome
+          </div>
+          <div class="footer__title footer__hours_weaccept">
+            We Accept:
+          </div>
+          <div class="footer__hours_paypal">
+            <img src="assets/img/visa.png" alt="visa" />
+            <img src="assets/img/master.png" alt="master" />
+            <img src="assets/img/discover.png" alt="discover" />
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 mb-20">
+          <h6 class="footer__title text-uppercase">Contact Us</h6>
+          <div class="footer__content">
+            338 S Grand Ave<br />Sun Prairie, WI 53590<br />(608) 318-6088
+            <div class="footer__contact_social">
+              <a
+                href="https://www.facebook.com/"
+                class="footer__social footer__social_facebook"
+                target="_blank"
+              ></a>
+              <a
+                href="https://www.yelp.com"
+                class="footer__social footer__social_yelp"
+                target="_blank"
+              ></a>
+              <a
+                href="https://www.google.com/"
+                class="footer__social footer__social_googleplus"
+                target="_blank"
+              ></a>
+            </div>
+            <div class="footer__contact_copyright">
+              Copyright &copy; Nail Studio
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div
+    id="top"
+    style="display: none;"
+    onclick="$('html,body').animate({scrollTop: 0}, 'slow'); return false;"
+  ></div>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/common.js"></script>
+	<script src="assets/js/e-gift.js"></script>
+</body>
+
+</html>

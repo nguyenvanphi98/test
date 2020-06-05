@@ -1,0 +1,76 @@
+.content {
+  overflow: hidden;
+  min-height: 300px;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 50px;
+}
+.signup__desc {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 10px;
+  color: #bee2ce;
+}
+.signup__frm {
+  margin: 0px auto;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px #999;
+  padding: 40px;
+  border: 1px solid #999;
+}
+.signup__frm label {
+  font-family: Arial;
+}
+.contact__frm .form-control {
+  border-radius: 0;
+}
+.contact__frm label {
+  font-weight: bold;
+}
+.manage__contacts {
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.manage__contacts__add {
+  width: 400px;
+  float: left;
+  margin-right: 80px;
+}
+.contacts__title {
+  font-size: 21px;
+  margin-bottom: 10px;
+  font-family: Cinzel;
+}
+.contacts__add {
+  height: 60px;
+  padding-left: 30px;
+  background: url("../img/location.png") 0px 0px no-repeat;
+}
+.manage__contacts__phone {
+  width: 150px;
+  float: left;
+}
+.contacts__phone {
+  height: 40px;
+  padding-left: 30px;
+  background: url("../img/phone.png") 0px 0px no-repeat;
+}
+/* css form */
+.btn__send {
+  width: 100px;
+  height: 35px;
+  background: #bee2ce;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 8px;
+  border-radius: 0;
+  border: 0;
+}
+.btn__send:hover {
+  background: #ceefde;
+}

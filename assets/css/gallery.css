@@ -1,0 +1,32 @@
+body{
+    display: block;
+}
+@font-face {
+    font-family: Cinzel_Regular;
+    src:url('Cinzel-Regular.otf') format('truetype');
+}
+.border_page{
+    text-align:  center;
+}
+.content{
+    min-height: 300px;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 50px;   
+}
+.content h2{
+    font-family: Cinzel_Regular;
+    font-size: 35px;
+    color:#ffffff;
+    margin-bottom: 10px;              
+}
+.policy ul li {
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 450;
+    color: #fff;
+}
+.gallery__item:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 1px 1px 1.5px 2px; 
+}
